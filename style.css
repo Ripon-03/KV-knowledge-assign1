@@ -11,7 +11,6 @@
 
 /* Header Section */
 nav{
-  /* width: 71%; */
   margin: 0 auto;
   max-width: 1360px;
   height: 92px;
@@ -165,7 +164,7 @@ nav .list-item{
 
 /* Card Section */
 .card-container{
-    width: 1360px;
+    max-width: 1360px;
     display: flex;
     justify-content: space-between;
     margin: 44px auto;
@@ -174,7 +173,6 @@ nav .list-item{
 .cards{
     width: 322px;
     height: 300px;
-    /* border: 1px solid red; */
     margin: 20px 20px;
     display: flex;
     justify-content: flex-start;
@@ -213,7 +211,7 @@ nav .list-item{
 
 /* Brain Container */
 .brain-container{
-    width: 1360px;
+    max-width: 1360px;
     height: 600px;
     /* border: 1px solid red; */
     margin: 0 auto;
@@ -225,7 +223,7 @@ nav .list-item{
 }
 
 .brain-container .image img{
-    width: 600px;
+    max-width: 600px;
 }
 
 .brain-container .brain-info li {
