@@ -11,9 +11,7 @@
 
 /* Header Section */
 header{
-  max-width: 1600px;
-
-  
+  max-width: 1600px; 
 }
 
 nav{
@@ -61,16 +59,6 @@ nav .list-item{
 }
 
 /* Header Banner Section */
-
-
-/* .banner img{
-  width: 1600px;
-  height: 674px;
-  vertical-align: middle;
-  background: url(images/background.png);
-} */
-
-
 
 .banner-container{
     width: 100%;
@@ -155,33 +143,46 @@ nav .list-item{
 .notes-container{
     width: 1360px;
     height: 152px;
-    border: 1px solid red;
-    margin: 20px auto;
+    /* border: 1px solid red; */
+    margin: 0 auto;
     text-align: center;
    }
+
+   .notes-container h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 16px;
+
+   }
+   .notes-container p{
+    font-size: 16px;
+    }
 
 /* Card Section */
 .card-container{
     width: 1360px;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
-    
-
+    margin: 44px auto;
 }
 
 .cards{
     width: 322px;
     height: 300px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 20px 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    
-    
+    box-shadow: -6px 6px 12px rgba(180, 180, 200, 0.5);
+    background-color: #FAFAFA;
+    border-radius: 6px; 
+    cursor: pointer;
+    margin-bottom: 120px;
 }
+
 .cards img{
     background-color: #F95555;
     width: 60px;
@@ -195,23 +196,28 @@ nav .list-item{
     text-align: center;
     font-size: 24px;
     margin-bottom: 16px;
+    font-weight: 600;
 }
 
 .cards p{
     width: 274px;
     font-size: 16px;
     line-height: 20px;
+    text-align: center;
+    font-weight: 400;
 }
 
+/* Brain Container */
 .brain-container{
     width: 1360px;
     height: 600px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60px;
+    margin-bottom: 120px;
 }
 
 .brain-container .image img{
@@ -248,8 +254,9 @@ nav .list-item{
 .ready-banner{
     max-width: 1360px;
     height: 384px;
+    background-color: #F7F6F2;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 115.5px 120px 179.5px 120px;
 
     display: flex;
@@ -292,7 +299,7 @@ footer{
   
 }
 
-   }
+
 
    .footer-logo-container p{
     color:#ffffff;
