@@ -302,9 +302,13 @@ footer{
 
 .footer-logo-container .social-icons i{
     background-color:#ffffff;
-    width: 22px;
+    color: #001931;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
-    padding: 3px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     
    }
